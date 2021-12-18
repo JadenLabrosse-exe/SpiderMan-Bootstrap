@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div {
+            border-style: solid;
+            border-color: black;
+            padding: 5px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="form.html">Spider-Man</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="form.html">Vote</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="stats.html">Stats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="form.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item" href="stats.html">Stats</a>
+                        <a class="dropdown-item" href="form.html">Vote</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<form>
+    <h1>Feel Free To Vote!</h1>
+    <p>The Only Person Who Can Decide Who's The Best Is You!</p>
+  <div class="form-group">
+    <label for="firstName">Your Name</label>
+    <input type="name" class="form-control" id="exampleName" aria-describedby="nameHelp" placeholder="First Name">
+    <small id="emailHelp" class="form-text text-muted">This Information Will NOT Be Public.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleSpider-Man">Your Favorite</label>
+    <input type="name" class="form-control" id="exampleInputSpider-Man" placeholder="Favorite Spider-Man">
+    <small id="SpidermanHelp" class="form-text text-muted">Let Me Know Who YOUR Favorite Spider-Man Is!</small>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</body>
+</html>
